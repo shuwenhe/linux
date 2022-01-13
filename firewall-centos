@@ -1,0 +1,26 @@
+
+ firewall-cmd --zone=public --add-port=33061/tcp --permanent
+ firewall-cmd --zone=public --add-port=8989/tcp --permanent
+ firewall-cmd --zone=public --add-port=8990/tcp --permanent
+ firewall-cmd --zone=public --add-port=8000/tcp --permanent
+ firewall-cmd --zone=public --add-port=8978/tcp --permanent
+ firewall-cmd --zone=public --add-port=80/tcp --permanent
+ firewall-cmd --zone=public --add-port=6379/tcp --permanent
+ firewall-cmd --zone=public --add-port=18083/tcp --permanent
+ firewall-cmd --zone=public --add-port=8083/tcp --permanent
+ firewall-cmd --zone=public --add-port=1883/tcp --permanent
+ firewall-cmd --zone=public --add-port=21/tcp --permanent
+ firewall-cmd --zone=public --add-port=8123/tcp --permanent
+ firewall-cmd --zone=public --add-port=443/tcp --permanent
+ firewall-cmd --zone=public --add-port=8998/tcp --permanent
+ firewall-cmd --zone=public --add-port=8999/tcp --permanent
+ firewall-cmd --zone=public --add-port=9527/tcp --permanent
+ firewall-cmd --zone=public --add-port=9898/tcp --permanent
+ firewall-cmd --zone=public --add-port=8988/tcp --permanent
+ firewall-cmd --zone=public --add-port=8987/tcp --permanent
+ firewall-cmd --zone=public --add-port=8700/tcp --permanent
+ firewall-cmd --zone=public --add-port=9000/tcp --permanent
+ firewall-cmd --zone=public --add-port=3000/tcp --permanent
+ firewall-cmd --zone=public --add-port=8081/tcp --permanent
+ firewall-cmd --zone=public --add-port=3306/tcp --permanent
+ firewall-cmd --reload

@@ -1,0 +1,12 @@
+生成ssh秘钥
+ssh-keygen
+sudo yum install openssh-server
+
+sidsa
+ssh root@8.140.156.102
+Sid@_00..
+
+shuwen
+ssh root@62.234.11.179
+ShuwenHe@_00..
+
