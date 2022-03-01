@@ -1,12 +1,14 @@
-1.start
+1.enable
+systemctl enable sidsa-service-api
+2.start
 systemctl start sidsa-service-api
-2.stop
+3.stop
 systemctl stop sidsa-service-api
-3.kill
+4.kill
 systemctl kill sidsa-service-api
-4.restart
+5.restart
 systemctl restart sidsa-service-api
-5.status
+6.status
 sudo systemctl status sidsa-service-api
 
 1.systemd
