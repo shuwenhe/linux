@@ -9,7 +9,7 @@ systemctl kill sidsa-service-api
 5.restart
 systemctl restart sidsa-service-api
 6.status
-sudo systemctl status sidsa-service-api
+systemctl status sidsa-service-api
 
 1.systemd
 https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
