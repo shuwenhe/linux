@@ -1,20 +1,20 @@
-0.config
+1.config
 /etc/systemd/system/sidsa-service-api.service
 /usr/lib/systemd/system
-1.enable
+2.enable
 systemctl enable sidsa-service-api
-2.start
+3.start
 systemctl start sidsa-service-api
-3.stop
+4.stop
 systemctl stop sidsa-service-api
-4.kill
+5.kill
 systemctl kill sidsa-service-api
-5.restart
+6.restart
 systemctl restart sidsa-service-api
-6.status
+7.status
 systemctl status sidsa-service-api
 
-0.service
+1.service
 java-demo sidsa-service-api sidsa-admin
-1.systemd
+2.systemd
 https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
