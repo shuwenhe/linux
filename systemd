@@ -1,5 +1,4 @@
 
-systemctl kill java-demo
 
 journalctl -f -u java-demo
 配置文件
@@ -43,3 +42,5 @@ sudo systemctl status sidsa-service-api
 systemctl restart sidsa-service-api
 6.stop
 systemctl stop sidsa-service-api
+7.kill
+systemctl kill sidsa-service-api
