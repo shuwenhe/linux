@@ -11,6 +11,8 @@ systemctl restart sidsa-service-api
 6.status
 systemctl status sidsa-service-api
 
+0.service
+java-demo sidsa-service-api sidsa-admin
 1.systemd
 https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
 2.config
