@@ -1,3 +1,6 @@
+0.config
+/etc/systemd/system/sidsa-service-api.service
+/usr/lib/systemd/system
 1.enable
 systemctl enable sidsa-service-api
 2.start
@@ -15,6 +18,3 @@ systemctl status sidsa-service-api
 java-demo sidsa-service-api sidsa-admin
 1.systemd
 https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
-2.config
-/etc/systemd/system/sidsa-service-api.service
-/usr/lib/systemd/system
