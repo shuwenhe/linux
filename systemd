@@ -1,1 +1,3 @@
-支持 Systemd 的软件，安装的时候，会自动在/usr/lib/systemd/system目录添加一个配置文件。
+支持Systemd的软件，安装的时候，会自动在/usr/lib/systemd/system目录添加一个配置文件
+软件开机启动执行命令httpd.service
+sudo systemctl enable httpd
