@@ -1,18 +1,3 @@
-Systemd 入门教程：实战篇
-https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
-
-systemctl start sidsa-admin
-systemctl start sidsa-service-api
-systemctl start sidsa-service-realtime
-systemctl start java-demo
-
-systemctl status sidsa-service-api
-systemctl status sidsa-service-realtime
-systemctl status java-demo
-
-systemctl restart java-demo
-
-systemctl stop java-demo
 
 systemctl kill java-demo
 
@@ -46,7 +31,15 @@ sudo systemctl enable httpd
 sudo systemctl start httpd
 
 
-1.开机Systemd执行/etc/systemd/system目录里面的配置文件
+1.Systemd入门教程:实战篇
+https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
+2.开机Systemd执行/etc/systemd/system目录里面的配置文件
 /etc/systemd/system/sidsa-service-api.service
-2.查看服务状态
+3.start
+systemctl start sidsa-service-api
+4.status
 sudo systemctl status sidsa-service-api
+5.restart
+systemctl restart sidsa-service-api
+6.stop
+systemctl stop sidsa-service-api
