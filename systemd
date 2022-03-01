@@ -1,10 +1,17 @@
-
-
-journalctl -f -u java-demo
-配置文件
-etc/systemd/system
-[Unit]
-Description=sidsa-service
+1.systemd
+https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
+2.config
+/etc/systemd/system/sidsa-service-api.service
+3.start
+systemctl start sidsa-service-api
+4.status
+sudo systemctl status sidsa-service-api
+5.restart
+systemctl restart sidsa-service-api
+6.stop
+systemctl stop sidsa-service-api
+7.kill
+systemctl kill sidsa-service-api
 
 [Service]
 ExecStart=/app/sidsa-service/sidsa-service --config=/app/sidsa-service/configs/test.yaml
@@ -29,18 +36,3 @@ sudo systemctl enable httpd
 运行httpd执行systemctl start命令
 sudo systemctl start httpd
 
-
-1.Systemd入门教程:实战篇
-https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
-2.开机Systemd执行/etc/systemd/system目录里面的配置文件
-/etc/systemd/system/sidsa-service-api.service
-3.start
-systemctl start sidsa-service-api
-4.status
-sudo systemctl status sidsa-service-api
-5.restart
-systemctl restart sidsa-service-api
-6.stop
-systemctl stop sidsa-service-api
-7.kill
-systemctl kill sidsa-service-api
