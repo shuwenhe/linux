@@ -1,15 +1,16 @@
+1.start
+systemctl start sidsa-service-api
+2.stop
+systemctl stop sidsa-service-api
+3.kill
+systemctl kill sidsa-service-api
+4.restart
+systemctl restart sidsa-service-api
+5.status
+sudo systemctl status sidsa-service-api
+
 1.systemd
 https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
 2.config
 /etc/systemd/system/sidsa-service-api.service
 /usr/lib/systemd/system
-3.start
-systemctl start sidsa-service-api
-4.status
-sudo systemctl status sidsa-service-api
-5.stop
-systemctl stop sidsa-service-api
-6.kill
-systemctl kill sidsa-service-api
-7.restart
-systemctl restart sidsa-service-api
