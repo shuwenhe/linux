@@ -12,3 +12,5 @@ ShuwenHe@_00..
 
 mac下ssh config路径 当前用户的宿主目录
 vi ~/.ssh/config
+Host 8.140.156.102
+HostName 8.140.156.102
