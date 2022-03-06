@@ -1,7 +1,12 @@
+systemctl 命令完全指南
+https://linux.cn/article-5926-1.html
 systemd安装版本
 systemctl --version
 
 eg:
 // sidsa
 systemctl restart java-demo
-
+列出所有运行中单元
+systemctl list-units
+检查某个单元（如sidsa-service-api.service）是否启用
+systemctl is-enabled sidsa-service-api.service

@@ -18,3 +18,8 @@ systemctl status sidsa-service-api
 java-demo sidsa-service-api sidsa-admin
 2.systemd
 https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
+
+分析systemd启动进程
+systemd-analyze
+分析启动时各个进程花费的时间
+systemd-analyze blame
