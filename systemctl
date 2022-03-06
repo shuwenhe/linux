@@ -1,2 +1,7 @@
+systemd安装版本
+systemctl --version
+
+eg:
 // sidsa
 systemctl restart java-demo
+
