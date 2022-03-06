@@ -9,4 +9,9 @@ systemctl list-units
 检查某个单元（如sidsa-service-api.service）是否启用
 systemctl is-enabled sidsa-service-api.service
 
+检查某个单元或服务是否运行
 systemctl status sidsa-service-api
+
+列出所有服务（包括启用的和禁用的）
+systemctl list-unit-files --type=service
+
