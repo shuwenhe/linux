@@ -68,3 +68,7 @@ $ systemctl show httpd.service
 $ systemctl show -p CPUShares httpd.service
 # 设置某个 Unit 的指定属性
 $ sudo systemctl set-property httpd.service CPUShares=500
+
+Unit 之间存在依赖关系：A 依赖于 B，就意味着 Systemd 在启动 A 的时候，同时会去启动 B。
+systemctl list-dependencies命令列出一个 Unit 的所有依赖。
+$ systemctl list-dependencies nginx.service
