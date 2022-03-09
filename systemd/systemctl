@@ -1,5 +1,6 @@
 systemctl start sidsa-service-api
 systemctl restart sidsa-service-api
+systemctl kill sidsa-service-api
 
 systemctl 命令完全指南
 https://linux.cn/article-5926-1.html
@@ -83,8 +84,6 @@ $ systemctl list-dependencies nginx.service
 systemctl enable sidsa-service-api
 4.stop
 systemctl stop sidsa-service-api
-5.kill
-systemctl kill sidsa-service-api
 7.status
 systemctl status sidsa-service-api
 
