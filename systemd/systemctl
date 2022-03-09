@@ -3,14 +3,13 @@ systemctl start sidsa-service-api
 systemctl restart sidsa-service-api
 systemctl kill sidsa-service-api
 systemctl status sidsa-service-api
+systemctl --version
 
 Systemd 入门教程：命令篇
 https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html
 
 systemctl 命令完全指南
 https://linux.cn/article-5926-1.html
-systemd安装版本
-systemctl --version
 
 systemctl restart java-demo
 列出所有运行中单元
