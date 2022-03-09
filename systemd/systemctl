@@ -1,3 +1,4 @@
+systemctl list-units
 systemctl start sidsa-service-api
 systemctl restart sidsa-service-api
 systemctl kill sidsa-service-api
@@ -42,8 +43,6 @@ $ sudo systemctl hybrid-sleep
 # 启动进入救援状态（单用户状态）
 $ sudo systemctl rescue
 
-# 列出正在运行的 Unit
-$ systemctl list-units
 # 列出所有Unit，包括没有找到配置文件的或者启动失败的
 $ systemctl list-units --all
 # 列出所有没有运行的 Unit
