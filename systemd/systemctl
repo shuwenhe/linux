@@ -1,8 +1,10 @@
+/etc/systemd/system/sidsa-service-api.service
 systemctl list-units
 systemctl start sidsa-service-api
 systemctl restart sidsa-service-api
 systemctl kill sidsa-service-api
 systemctl status sidsa-service-api
+systemctl is-enabled sidsa-service-api
 systemctl --version
 
 Systemd 入门教程：命令篇
@@ -10,13 +12,6 @@ https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html
 
 systemctl 命令完全指南
 https://linux.cn/article-5926-1.html
-
-systemctl restart java-demo
-列出所有运行中单元
-systemctl list-units
-检查某个单元（如sidsa-service-api.service）是否启用
-systemctl is-enabled sidsa-service-api.service
-
 
 列出所有服务（包括启用的和禁用的）
 systemctl list-unit-files --type=service
@@ -64,9 +59,6 @@ Unit 之间存在依赖关系：A 依赖于 B，就意味着 Systemd 在启动 A
 systemctl list-dependencies命令列出一个 Unit 的所有依赖。
 $ systemctl list-dependencies nginx.service
 
-1.config
-/etc/systemd/system/sidsa-service-api.service
-/usr/lib/systemd/system
 2.enable
 systemctl enable sidsa-service-api
 4.stop
