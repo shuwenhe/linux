@@ -1,3 +1,6 @@
+systemctl start sidsa-service-api
+systemctl restart sidsa-service-api
+
 systemctl 命令完全指南
 https://linux.cn/article-5926-1.html
 systemd安装版本
@@ -78,14 +81,10 @@ $ systemctl list-dependencies nginx.service
 /usr/lib/systemd/system
 2.enable
 systemctl enable sidsa-service-api
-3.start
-systemctl start sidsa-service-api
 4.stop
 systemctl stop sidsa-service-api
 5.kill
 systemctl kill sidsa-service-api
-6.restart
-systemctl restart sidsa-service-api
 7.status
 systemctl status sidsa-service-api
 
