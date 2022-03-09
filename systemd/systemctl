@@ -72,3 +72,33 @@ $ sudo systemctl set-property httpd.service CPUShares=500
 Unit 之间存在依赖关系：A 依赖于 B，就意味着 Systemd 在启动 A 的时候，同时会去启动 B。
 systemctl list-dependencies命令列出一个 Unit 的所有依赖。
 $ systemctl list-dependencies nginx.service
+
+1.config
+/etc/systemd/system/sidsa-service-api.service
+/usr/lib/systemd/system
+2.enable
+systemctl enable sidsa-service-api
+3.start
+systemctl start sidsa-service-api
+4.stop
+systemctl stop sidsa-service-api
+5.kill
+systemctl kill sidsa-service-api
+6.restart
+systemctl restart sidsa-service-api
+7.status
+systemctl status sidsa-service-api
+
+1.service
+java-demo sidsa-service-api sidsa-admin
+2.systemd
+https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
+
+分析systemd启动进程
+systemd-analyze
+分析启动时各个进程花费的时间
+systemd-analyze blame
+
+Lennart_Poettering
+https://en.wikipedia.org/wiki/Lennart_Poettering
+https://www.youtube.com/watch?v=_obJr3a_2G8
