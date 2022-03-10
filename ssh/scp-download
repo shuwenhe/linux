@@ -1,2 +1,3 @@
-scp root@8.140.156.102:/app/shuwen.zip /mnt/d/sidsa/
+scp root@8.140.156.102:/app/shuwen/sidsa-service* /mnt/c/shuwen/go/linux/systemd/service/
 scp root@8.140.156.102:/app/shuwen/java-demo.service /mnt/c/shuwen/go/linux/systemd/service
+scp root@8.140.156.102:/app/shuwen.zip /mnt/d/sidsa/
