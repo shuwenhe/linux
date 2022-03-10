@@ -2,6 +2,7 @@
 systemctl list-units
 systemctl status sidsa-service-api
 systemctl kill sidsa-service-api
+systemctl daemon-reload
 systemctl start sidsa-service-api
 systemctl restart sidsa-service-api
 systemctl is-enabled sidsa-service-api
