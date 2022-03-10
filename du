@@ -1,14 +1,3 @@
 du -sh
-du -s * | sort -n
-
-du disk use
--h, --human-readable
-        print sizes in human readable format (e.g., 1K 234M 2G)
--s, --summarize
-        display only a total for each argument
-
-查看某个目录的总大小
-
 du -sh *
-查看当前目录下各个文件及目录占用空间大小
-
+du -s * | sort -n
