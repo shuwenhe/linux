@@ -1,5 +1,0 @@
-unzip consul_1.9.4_linux_amd64.zip
-压缩dist文件夹成demo.zip
-zip -r demo.zip dist/
-解压
-unzip demo.zip
