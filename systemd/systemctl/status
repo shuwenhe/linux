@@ -1,0 +1,1 @@
+systemctl status sidsa-service-realtime
