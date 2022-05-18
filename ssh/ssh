@@ -3,7 +3,8 @@ ssh-keygen
 sudo yum install openssh-server
 
 sidsa
-ssh root@8.140.15s.102
+ssh root@8.140.156.102
+Sid@
 
 shuwen
 ssh root@62.234.11.179
