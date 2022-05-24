@@ -1,0 +1,12 @@
+ubuntu系统启用root用户远程登陆
+https://cloud.tencent.com/developer/article/1496006
+1.使用ubuntu用户登陆到系统中
+ssh ubuntu@62.234.11.179
+2.编辑/etc/ssh/sshd_config文件
+sudo vim /etc/ssh/sshd_config
+找到配置参数：PermitRootLogin
+将该参数后面的值修改为yes即可
+3.给root用户设置密码
+sudo passwd root
+4.重启ssh服务
+sudo systemctl restart ssh
