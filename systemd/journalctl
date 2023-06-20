@@ -1,3 +1,0 @@
-journalctl -f -a -u java-demo
-journalctl -f -a -u sidsa-admin
-journalctl -f -a -u sidsa-service-api

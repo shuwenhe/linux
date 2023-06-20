@@ -1,0 +1,8 @@
+ubuntu 20.04 服务器 开启root远程ssh登录
+https://blog.eldernode.com/enable-root-login-via-ssh-in-ubuntu-20-04/
+
+sudo systemctl restart sshdU
+vi /etc/ssh/sshd_config
+PermitRootLogin yes
+sudo systemctl restart sshd
+

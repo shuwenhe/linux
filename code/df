@@ -1,0 +1,4 @@
+df -Th
+df -m
+df -hl
+

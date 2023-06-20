@@ -1,0 +1,5 @@
+eg:
+// sidsa
+ps aux | grep sidsa
+ps aux | grep java
+ps aux | grep systemd

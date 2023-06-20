@@ -1,0 +1,3 @@
+查看实例的云盘情况
+fdisk -lu
+fdisk -l

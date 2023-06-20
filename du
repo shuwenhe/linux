@@ -1,3 +1,0 @@
-du -sh
-du -sh *
-du -s * | sort -n
