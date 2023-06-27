@@ -157,24 +157,25 @@ break main
 \section{调试命令}
 \subsection{n}
 n\\
-next执行下一行语句，不会进入函数内部。\\
+next执行下一行语句，不会进入函数内部。
+\subsection{display}
+使用display命令来设置自动打印变量的值。
+\subsection{info}
+info breakpoints：显示当前设置的所有断点。\\
+d breakpoints (Delete all breakpoints)
 \subsection{s}
 s\\
-step执行下一行语句，如果是函数调用，则进入函数内部。\\
+step执行下一行语句，如果是函数调用，则进入函数内部。
 \subsection{p}
 p\\
-print：打印变量的值。\\
+print：打印变量的值。
 \subsection{bt}
 bt\\
-backtrace打印函数调用栈。\\
+backtrace打印函数调用栈。
 \subsection{c}
 c\\
 continue继续执行程序，直到下一个断点或程序结束。\\
-调试完成后，可以使用 quit 命令退出 gdb。\\
-info breakpoints：显示当前设置的所有断点。\\
-d breakpoints (Delete all breakpoints)
-\subsection{display}
-使用display命令来设置自动打印变量的值。
+调试完成后，可以使用 quit 命令退出 gdb。
 
 \section{跳转到第几行}
 :3 跳转到第3行\\
