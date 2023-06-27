@@ -1,11 +1,20 @@
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}NOI Linux}{3}{chapter.0.1}%
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}vi}{4}{chapter.0.2}%
 \contentsline {section}{\numberline {1}vim配置}{4}{section.0.2.1}%
+\contentsline {section}{\numberline {2}vi编辑器}{4}{section.0.2.2}%
+\contentsline {section}{\numberline {3}跳转到第几行}{4}{section.0.2.3}%
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}linux命令}{5}{chapter.0.3}%
 \contentsline {section}{\numberline {1}文件命令}{5}{section.0.3.1}%
+<<<<<<< HEAD
 \contentsline {section}{\numberline {2}文本编辑器}{5}{section.0.3.2}%
 \contentsline {section}{\numberline {3}C++编译器}{5}{section.0.3.3}%
 \contentsline {subsection}{\numberline {3.1}g++常用命令选项}{6}{subsection.0.3.3.1}%
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}vi编辑器}{7}{chapter.0.4}%
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}g++编译器}{8}{chapter.0.5}%
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}gdb调试器}{9}{chapter.0.6}%
+=======
+\contentsline {section}{\numberline {2}C++编译器}{5}{section.0.3.2}%
+\contentsline {subsection}{\numberline {2.1}g++常用命令选项}{6}{subsection.0.3.2.1}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}g++}{7}{chapter.0.4}%
+\contentsline {section}{\numberline {1}g++}{7}{section.0.4.1}%
+>>>>>>> 49564058b9e8e8628587a09e2b41b8e5b953b477

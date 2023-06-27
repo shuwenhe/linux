@@ -95,12 +95,6 @@ ShuwenHe\\
 \chapter{NOI Linux}
 NOI Linux 2.0版（Ubuntu-NOI 2.0版）已经基于Ubuntu 20.04.1版
 
-\chapter{vi}
-\section{vim配置}
-/etc/vim\\
-set nu "显示行号\\
-set cursorline " 添加绿色下划线，突出显示当前行
-
 \chapter{linux命令}
 \section{文件命令}
 mkdir cpp 创建文件夹\\
@@ -119,8 +113,6 @@ esc推出vi编辑器\\
 :wq保存并推出 write quit\\
 ls查看当前文件夹有什么文件ls - list directory contents
 
-\section{文本编辑器}
-
 \section{C++编译器}
 命令行使用下面的命令来检查您的系统上是否安装了gcc\\
 g++ -v
@@ -138,9 +130,16 @@ C++ 中的分号\&语句块\\
 编辑编译执行C++程序
 
 \chapter{vi编辑器}
-yy->p复制粘贴一行
+\section{vim配置}
+/etc/vim\\
+set nu "显示行号\\
+set cursorline " 添加绿色下划线，突出显示当前行
+
+\section{vi编辑器}
+yy->p复制粘贴一行\\
 dd删除当前行
 
+<<<<<<< HEAD
 \chapter{g++编译器}
 
 
@@ -162,6 +161,15 @@ print（简写为 p）：打印变量的值。\\
 backtrace（简写为 bt）：打印函数调用栈。\\
 continue（简写为 c）：继续执行程序，直到下一个断点或程序结束。\\
 调试完成后，可以使用 quit 命令退出 gdb。
+=======
+\section{跳转到第几行}
+:3 跳转到第3行\\
+:\$跳转到最后一行
+
+\chapter{g++}
+\section{g++}
+g++ prime.cpp -o prime -O2 -std=c++14
+>>>>>>> 49564058b9e8e8628587a09e2b41b8e5b953b477
 
 \clearpage
 \end{document}
