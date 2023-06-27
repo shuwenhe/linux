@@ -7,3 +7,5 @@
 \contentsline {section}{\numberline {3}C++编译器}{5}{section.0.3.3}%
 \contentsline {subsection}{\numberline {3.1}g++常用命令选项}{6}{subsection.0.3.3.1}%
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}vi编辑器}{7}{chapter.0.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}g++编译器}{8}{chapter.0.5}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}gdb调试器}{9}{chapter.0.6}%
