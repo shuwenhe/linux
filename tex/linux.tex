@@ -143,21 +143,18 @@ dd删除当前行
 \chapter{g++编译器}
 
 \chapter{gdb}
-\section{编译生成调试信息}
+\section{tui}
+1.编译 C++ 代码时需要加上 -g（或 -ggdb）选项，以便生成调试信息。\\
 g++ decode.cpp -g -o decode -O2 -std=c++14 \\
-编译 C++ 代码时需要加上 -g（或 -ggdb）选项，以便生成调试信息。
-\section{启动gdb调试器并加载源码}
+2.启动gdb调试器并加载源码Text User Interface\\
 gdb -tui decode\\
-Text User Interface，TUI\\
-启动gdb调试器并加载源码
-\section{运行程序}
-run运行程序
-\section{加断点}
-break main
-\section{调试命令}
-\subsection{n}
+3.运行程序\\
+run\\
+4.加断点break\\
+b main\\
+b 3\\
+5.next执行下一行语句，不会进入函数内部。
 n\\
-next执行下一行语句，不会进入函数内部。
 \subsection{display}
 使用display命令来设置自动打印变量的值。
 \subsection{info}
