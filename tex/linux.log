@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.6.22)  23 JUL 2023 08:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.6.22)  23 JUL 2023 09:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -899,7 +899,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ]
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-133.
+134.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -920,7 +920,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 第五章
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--158
+Underfull \hbox (badness 10000) in paragraph at lines 148--159
 
  []
 
@@ -951,8 +951,14 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `linux.out' has not changed.
-(rerunfilecheck)             Checksum: 4D1B2D42D69BBF97EEF73099554D85D5;669.
+
+Package rerunfilecheck Warning: File `linux.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `linux.out':
+(rerunfilecheck)             Before: 4D1B2D42D69BBF97EEF73099554D85D5;669
+(rerunfilecheck)             After:  C271834920B3FCDEA3BAB61F7A557B41;692.
  ) 
 Here is how much of TeX's memory you used:
  20070 strings out of 411165
