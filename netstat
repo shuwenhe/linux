@@ -1,3 +1,4 @@
 netstat
 
 netstat -anp|grep 8989
+netstat -lp
