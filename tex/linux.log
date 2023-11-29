@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  28 NOV 2023 08:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  29 NOV 2023 09:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -803,25 +803,25 @@ Package hyperref Info: Link coloring ON on input line 50.
 \@outlinefile=\write4
 \openout4 = `linux.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
 
 
 (C:\CTEX\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 
 
 (C:\CTEX\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 62
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 61
 .
 
 (C:\CTEX\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 62
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 61
 .
 
 (C:\CTEX\MiKTeX\tex/latex/wasysym\uwasy.fd
@@ -829,55 +829,13 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ) [1
 
 
-] (linux.toc [2
-
-])
+] (linux.toc)
 \tf@toc=\write5
 \openout5 = `linux.toc'.
 
- [3]
-Chapter .1.
-[4
+ [2
 
 ]
-Chapter .2.
-[5
-
-]
-Chapter .3.
-[6
-
-]
-Chapter .4.
-[7
-
-]
-Chapter .5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--133
-
- []
-
-[8
-
-]
-
-LaTeX Warning: File `sidsa.png' not found on input line 156.
-
-linux.tex:156: Unable to load picture or PDF file 'sidsa.png'.
-<to be read again> 
-                   }
-l.156 \chapter
-              {g++}
-The requested image couldn't be read because
-it was not a recognized image format.
-
-File: sidsa.png Graphic file (type bmp)
-<sidsa.png>
-LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <12> not
- available
-(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on
- input line 156.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -886,25 +844,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9]
-Chapter .6.
-[10
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 117--128
 
-] (linux.aux)
+ []
+
+LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <12> not
+ available
+(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on
+ input line 146.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5] (linux.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `linux.out' has not changed.
-(rerunfilecheck)             Checksum: 476B90B570CBB08221E903EA3915F8FB;2126.
+(rerunfilecheck)             Checksum: F49A8D6E360380AD2F03D7FFC2901BEC;1662.
  ) 
 Here is how much of TeX's memory you used:
- 18167 strings out of 411427
- 354085 string characters out of 5823212
- 1853290 words of memory out of 5000000
- 38140 multiletter control sequences out of 15000+600000
- 523052 words of font info for 102 fonts, out of 8000000 for 9000
+ 18084 strings out of 411427
+ 352805 string characters out of 5823212
+ 1856290 words of memory out of 5000000
+ 38082 multiletter control sequences out of 15000+600000
+ 523036 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,12n,81p,309b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,11n,81p,309b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Error 1 (driver return code) generating output;
-file linux.pdf may not be valid.
+Output written on linux.pdf (5 pages).
