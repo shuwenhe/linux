@@ -7,5 +7,6 @@ sudo ufw enable
  firewall-cmd --zone=public --add-port=8991/tcp --permanent
  firewall-cmd --zone=public --add-port=80/tcp --permanent
  firewall-cmd --zone=public --add-port=8000/tcp --permanent
+ firewall-cmd --zone=public --add-port=3306/tcp --permanent
  firewall-cmd --reload
 
