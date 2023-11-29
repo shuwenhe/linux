@@ -154,5 +154,18 @@ continue继续执行程序，直到下一个断点或程序结束。\\
 \section{g++}
 g++ prime.cpp -o prime -O2 -std=c++14
 
+\section{firewall}
+\begin{lstlisting}[language=sql,breaklines = true]
+sudo apt install ufw
+sudo ufw status verbose
+sudo ufw enable
+firewall-cmd --zone=public --add-port=30881/tcp --permanent
+firewall-cmd --zone=public --add-port=8991/tcp --permanent
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+firewall-cmd --zone=public --add-port=8000/tcp --permanent
+firewall-cmd --zone=public --add-port=3306/tcp --permanent
+firewall-cmd --reload
+\end{lstlisting}
+
 \clearpage
 \end{document}

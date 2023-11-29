@@ -3,7 +3,7 @@ sudo ufw status verbose
 sudo ufw enable
 
 ---kubesphere---
- firewall-cmd --zone=public --add-port=30880/tcp --permanent
+ firewall-cmd --zone=public --add-port=30881/tcp --permanent
  firewall-cmd --zone=public --add-port=8991/tcp --permanent
  firewall-cmd --zone=public --add-port=80/tcp --permanent
  firewall-cmd --zone=public --add-port=8000/tcp --permanent

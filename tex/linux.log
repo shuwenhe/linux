@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  29 NOV 2023 10:04
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  29 NOV 2023 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -861,7 +861,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
+[4] (C:\CTEX\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -875,15 +877,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `linux.out' has not changed.
-(rerunfilecheck)             Checksum: 9D98968B4D43CABB36DC51A9B4A5238A;1768.
+(rerunfilecheck)             Checksum: 08E414DA1446CE4F82D95A4C16D62088;1885.
  ) 
 Here is how much of TeX's memory you used:
- 18084 strings out of 411427
- 352805 string characters out of 5823212
- 1855290 words of memory out of 5000000
- 38082 multiletter control sequences out of 15000+600000
+ 18340 strings out of 411427
+ 355782 string characters out of 5823212
+ 1906290 words of memory out of 5000000
+ 38334 multiletter control sequences out of 15000+600000
  523036 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,11n,81p,309b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,11n,81p,432b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on linux.pdf (5 pages).
