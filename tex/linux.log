@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  29 NOV 2023 09:54
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  29 NOV 2023 10:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -845,14 +845,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 117--128
+Underfull \hbox (badness 10000) in paragraph at lines 120--131
 
  []
 
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <12> not
  available
 (Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on
- input line 146.
+ input line 145.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -875,12 +875,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `linux.out' has not changed.
-(rerunfilecheck)             Checksum: F49A8D6E360380AD2F03D7FFC2901BEC;1662.
+(rerunfilecheck)             Checksum: 9D98968B4D43CABB36DC51A9B4A5238A;1768.
  ) 
 Here is how much of TeX's memory you used:
  18084 strings out of 411427
  352805 string characters out of 5823212
- 1856290 words of memory out of 5000000
+ 1855290 words of memory out of 5000000
  38082 multiletter control sequences out of 15000+600000
  523036 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

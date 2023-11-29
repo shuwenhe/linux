@@ -1,16 +1,17 @@
 \contentsline {chapter}{Contents}{2}{chapter*.1}%
-\contentsline {section}{\numberline {1}zip rar}{3}{section.0.0.1}%
-\contentsline {section}{\numberline {2}文件命令}{3}{section.0.0.2}%
-\contentsline {section}{\numberline {3}C++编译器}{3}{section.0.0.3}%
-\contentsline {subsection}{\numberline {3.1}g++常用命令选项}{3}{subsection.0.0.3.1}%
-\contentsline {section}{\numberline {4}vim配置}{3}{section.0.0.4}%
-\contentsline {section}{\numberline {5}vi编辑器}{4}{section.0.0.5}%
-\contentsline {section}{\numberline {6}tui}{4}{section.0.0.6}%
-\contentsline {subsection}{\numberline {6.1}display}{4}{subsection.0.0.6.1}%
-\contentsline {subsection}{\numberline {6.2}info}{4}{subsection.0.0.6.2}%
-\contentsline {subsection}{\numberline {6.3}s}{4}{subsection.0.0.6.3}%
-\contentsline {subsection}{\numberline {6.4}p}{4}{subsection.0.0.6.4}%
-\contentsline {subsection}{\numberline {6.5}bt}{4}{subsection.0.0.6.5}%
-\contentsline {subsection}{\numberline {6.6}c}{5}{subsection.0.0.6.6}%
-\contentsline {section}{\numberline {7}跳转到第几行}{5}{section.0.0.7}%
-\contentsline {section}{\numberline {8}g++}{5}{section.0.0.8}%
+\contentsline {section}{\numberline {1}netstat}{3}{section.0.0.1}%
+\contentsline {section}{\numberline {2}zip rar}{3}{section.0.0.2}%
+\contentsline {section}{\numberline {3}文件命令}{3}{section.0.0.3}%
+\contentsline {section}{\numberline {4}C++编译器}{3}{section.0.0.4}%
+\contentsline {subsection}{\numberline {4.1}g++常用命令选项}{3}{subsection.0.0.4.1}%
+\contentsline {section}{\numberline {5}vim配置}{4}{section.0.0.5}%
+\contentsline {section}{\numberline {6}vi编辑器}{4}{section.0.0.6}%
+\contentsline {section}{\numberline {7}tui}{4}{section.0.0.7}%
+\contentsline {subsection}{\numberline {7.1}display}{4}{subsection.0.0.7.1}%
+\contentsline {subsection}{\numberline {7.2}info}{4}{subsection.0.0.7.2}%
+\contentsline {subsection}{\numberline {7.3}s}{4}{subsection.0.0.7.3}%
+\contentsline {subsection}{\numberline {7.4}p}{4}{subsection.0.0.7.4}%
+\contentsline {subsection}{\numberline {7.5}bt}{5}{subsection.0.0.7.5}%
+\contentsline {subsection}{\numberline {7.6}c}{5}{subsection.0.0.7.6}%
+\contentsline {section}{\numberline {8}跳转到第几行}{5}{section.0.0.8}%
+\contentsline {section}{\numberline {9}g++}{5}{section.0.0.9}%
