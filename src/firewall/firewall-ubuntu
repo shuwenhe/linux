@@ -11,3 +11,4 @@ sudo ufw enable
  firewall-cmd --zone=public --add-port=8123/tcp --permanent
  firewall-cmd --reload
 
+systemctl stop firewalld.service
