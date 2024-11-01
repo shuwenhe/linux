@@ -1,4 +1,7 @@
+serve
 /etc/ssh/sshd_config
 ClientAliveInterval 60
 ClientAliveCountMax 300
 sudo service ssh restart
+
+client
