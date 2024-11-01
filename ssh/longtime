@@ -1,5 +1,4 @@
-ssh长期连接
-SSH 服务器配置文件是 /etc/ssh/sshd_config
+/etc/ssh/sshd_config
 ClientAliveInterval 60
 ClientAliveCountMax 300
 sudo service ssh restart
