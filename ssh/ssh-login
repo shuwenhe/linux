@@ -1,16 +1,1 @@
 ssh root@39.107.59.4
-
-生成ssh秘钥
-ssh-keygen
-sudo yum install openssh-server
-
-mac下ssh config路径 当前用户的宿主目录
-vi ~/.ssh/config
-Host 39.107.59.4
-HostName 39.107.59.4
-
-ssh长期连接
-SSH 服务器配置文件是 /etc/ssh/sshd_config
-ClientAliveInterval 60
-ClientAliveCountMax 300
-sudo service ssh restart
