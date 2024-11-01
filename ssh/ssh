@@ -1,12 +1,8 @@
+ssh root@39.107.59.4
+
 生成ssh秘钥
 ssh-keygen
 sudo yum install openssh-server
-
-xstiku
-ssh root@39.107.59.4
-
-shuwen
-ssh root@39.107.59.4
 
 mac下ssh config路径 当前用户的宿主目录
 vi ~/.ssh/config
