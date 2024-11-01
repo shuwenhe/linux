@@ -2,14 +2,13 @@
 ssh-keygen
 sudo yum install openssh-server
 
-sidsa
-ssh root@8.140.156.102
-Sid@
+xstiku
+ssh root@39.107.59.4
 
 shuwen
-ssh root@62.234.11.179
+ssh root@39.107.59.4
 
 mac下ssh config路径 当前用户的宿主目录
 vi ~/.ssh/config
-Host 8.140.156.102
-HostName 8.140.156.102
+Host 39.107.59.4
+HostName 39.107.59.4
