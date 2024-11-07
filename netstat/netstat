@@ -1,3 +1,3 @@
-netstat
+sudo netstat -tulpn
 netstat -anp|grep 8989
 netstat -lp
