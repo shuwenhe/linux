@@ -1,1 +1,2 @@
 nohup ./shuwen-shop &
+nohup ./shuwen-shop & > log 2>&1 &
