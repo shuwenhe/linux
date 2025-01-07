@@ -1,0 +1,13 @@
+gdisk
+sudo gdisk nvme0n1
+? help
+d
+
+nvme0n1p1
+n
++500
+t
+EF00
+
+nvme0n1p2
+8300
