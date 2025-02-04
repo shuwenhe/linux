@@ -1,1 +1,1 @@
-curl http://localhost:8080/getUserData
+curl http://localhost:8888/getUserData
