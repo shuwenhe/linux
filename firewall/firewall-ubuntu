@@ -13,6 +13,7 @@ systemctl stop firewalld.service
  firewall-cmd --zone=public --add-port=33061/tcp --permanent
  firewall-cmd --zone=public --add-port=8123/tcp --permanent
  firewall-cmd --zone=public --add-port=9009/tcp --permanent
+ firewall-cmd --zone=public --add-port=21/tcp --permanent
 
  firewall-cmd --reload
 
