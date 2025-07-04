@@ -1,0 +1,3 @@
+sudo scutil --set HostName shuwen4
+sudo scutil --set LocalHostName shuwen4
+sudo scutil --set ComputerName "shuwen4"
