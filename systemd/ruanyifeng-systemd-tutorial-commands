@@ -1,0 +1,8 @@
+Systemd 入门教程：命令篇
+https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html
+
+五、Unit 的配置文件
+5.1 概述
+每一个 Unit 都有一个配置文件，告诉 Systemd 怎么启动这个 Unit 。
+Systemd 默认从目录/etc/systemd/system/读取配置文件。
+

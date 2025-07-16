@@ -1,0 +1,78 @@
+/etc/systemd/system/sidsa-service-api.service
+systemctl list-units
+systemctl daemon-reload
+systemctl is-enabled sidsa-service-api
+systemctl --version
+
+Systemd 入门教程：命令篇
+https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html
+
+systemctl 命令完全指南
+https://linux.cn/article-5926-1.html
+
+列出所有服务（包括启用的和禁用的）
+systemctl list-unit-files --type=service
+
+systemctl是 Systemd 的主命令，用于管理系统。
+# 重启系统
+$ sudo systemctl reboot
+# 关闭系统，切断电源
+$ sudo systemctl poweroff
+# CPU停止工作
+$ sudo systemctl halt
+# 暂停系统
+$ sudo systemctl suspend
+# 让系统进入冬眠状态
+$ sudo systemctl hibernate
+# 让系统进入交互式休眠状态
+$ sudo systemctl hybrid-sleep
+# 启动进入救援状态（单用户状态）
+$ sudo systemctl rescue
+
+# 列出所有Unit，包括没有找到配置文件的或者启动失败的
+$ systemctl list-units --all
+# 列出所有没有运行的 Unit
+$ systemctl list-units --all --state=inactive
+# 列出所有加载失败的 Unit
+$ systemctl list-units --failed
+# 列出所有正在运行的、类型为 service 的 Unit
+$ systemctl list-units --type=service
+
+# 立即停止一个服务
+$ sudo systemctl stop apache.service
+
+# 重新加载一个服务的配置文件
+$ sudo systemctl reload apache.service
+# 重载所有修改过的配置文件
+$ sudo systemctl daemon-reload
+# 显示某个 Unit 的所有底层参数
+$ systemctl show httpd.service
+# 显示某个 Unit 的指定属性的值
+$ systemctl show -p CPUShares httpd.service
+# 设置某个 Unit 的指定属性
+$ sudo systemctl set-property httpd.service CPUShares=500
+
+Unit 之间存在依赖关系：A 依赖于 B，就意味着 Systemd 在启动 A 的时候，同时会去启动 B。
+systemctl list-dependencies命令列出一个 Unit 的所有依赖。
+$ systemctl list-dependencies nginx.service
+
+2.enable
+systemctl enable sidsa-service-api
+4.stop
+systemctl stop sidsa-service-api
+7.status
+systemctl status sidsa-service-api
+
+1.service
+java-demo sidsa-service-api sidsa-admin
+2.systemd
+https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html
+
+分析systemd启动进程
+systemd-analyze
+分析启动时各个进程花费的时间
+systemd-analyze blame
+
+Lennart_Poettering
+https://en.wikipedia.org/wiki/Lennart_Poettering
+https://www.youtube.com/watch?v=_obJr3a_2G8

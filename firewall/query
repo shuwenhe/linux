@@ -1,0 +1,1 @@
+sudo firewall-cmd --query-port=3306/tcp

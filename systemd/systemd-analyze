@@ -1,0 +1,9 @@
+systemd-analyze命令用于查看启动耗时
+# 查看启动耗时
+$ systemd-analyze                                                                                       
+# 查看每个服务的启动耗时
+$ systemd-analyze blame
+# 显示瀑布状的启动过程流
+$ systemd-analyze critical-chain
+# 显示指定服务的启动流
+$ systemd-analyze critical-chain atd.service

@@ -1,0 +1,4 @@
+查看Linux系统中哪个文件夹使用的磁盘空间最大
+du -h --max-depth=1 / | sort -rh
+当前目录下每个子文件夹中文件的大小
+du -h --max-depth=1

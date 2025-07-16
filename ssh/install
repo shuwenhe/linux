@@ -1,0 +1,56 @@
+一、排查步骤（在 192.168.10.3 上执行）
+
+1.确认 SSH 是否已安装
+
+dpkg -l | grep openssh-server
+
+如果没有安装，可以使用：
+
+sudo apt update
+
+sudo apt install openssh-server
+
+2. 检查 SSH 服务状态
+
+sudo systemctl status ssh
+
+如果显示未运行，请启动 SSH：
+
+sudo systemctl start ssh
+
+sudo systemctl enable ssh  # 设置开机启动
+
+3. 检查 SSH 是否监听端口 22
+
+
+sudo netstat -tnlp | grep ssh
+
+# 或者
+
+sudo ss -tnlp | grep :22
+
+如果没有监听 22 端口，请查看配置文件：
+
+sudo vi  /etc/ssh/sshd_config
+
+确认以下行存在且未被注释（前面没有 #）：
+
+Port 22
+
+修改后保存并重启 SSH 服务：
+
+sudo systemctl restart ssh
+
+二、防火墙检查（如启用了 UFW）
+
+如果目标机器启用了防火墙（UFW），确保开放了 22 端口：
+
+sudo ufw allow 22
+
+sudo ufw reload
+
+查看防火墙状态确认：
+
+sudo ufw status
+
+

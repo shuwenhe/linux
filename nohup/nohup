@@ -1,0 +1,2 @@
+nohup ./shuwen-service &
+nohup ./service > log 2>&1 &

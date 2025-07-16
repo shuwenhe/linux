@@ -1,0 +1,19 @@
+sudo apt install ufw
+sudo ufw status verbose
+sudo ufw enable
+systemctl stop firewalld.service
+
+
+---kubesphere---
+ firewall-cmd --zone=public --add-port=30881/tcp --permanent
+ firewall-cmd --zone=public --add-port=8991/tcp --permanent
+ firewall-cmd --zone=public --add-port=80/tcp --permanent
+ firewall-cmd --zone=public --add-port=8000/tcp --permanent
+ firewall-cmd --zone=public --add-port=3306/tcp --permanent
+ firewall-cmd --zone=public --add-port=33061/tcp --permanent
+ firewall-cmd --zone=public --add-port=8123/tcp --permanent
+ firewall-cmd --zone=public --add-port=9009/tcp --permanent
+ firewall-cmd --zone=public --add-port=21/tcp --permanent
+
+ firewall-cmd --reload
+

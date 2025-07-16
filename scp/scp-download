@@ -1,0 +1,2 @@
+scp root@8.140.156.10:/app/shuwen/demo.zip /mnt/d/shuwen
+scp root@39.107.59.4:/var/www/xstiku /home/shuwen/xstiku

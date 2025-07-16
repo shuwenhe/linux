@@ -1,0 +1,2 @@
+chattr -i .user.ini
+rm -f .user.ini

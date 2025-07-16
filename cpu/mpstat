@@ -1,0 +1,2 @@
+列出每个CPU信息
+mpstat -P ALL

@@ -1,0 +1,11 @@
+serve
+/etc/ssh/sshd_config
+ClientAliveInterval 60
+ClientAliveCountMax 300
+sudo service ssh restart
+
+client
+vi ~/.ssh/config
+Host *
+    ServerAliveInterval 60
+    ServerAliveCountMax 3

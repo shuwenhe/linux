@@ -1,0 +1,3 @@
+tar -cvf ms-admin.tar ms-admin
+tar -xvf xstiku.tar
+tar -xzvf nginx-1.19.10.tar.gz

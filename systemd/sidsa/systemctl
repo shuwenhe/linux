@@ -1,0 +1,11 @@
+systemctl status sidsa-service-api
+systemctl stop sidsa-service-api
+systemctl start sidsa-service-api
+systemctl restart sidsa-service-api
+systemctl kill sidsa-service-api
+
+systemctl status sidsa-admin
+systemctl stop sidsa-admin
+systemctl kill sidsa-admin
+systemctl start sidsa-admin
+systemctl restart sidsa-admin 

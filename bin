@@ -1,0 +1,2 @@
+任意路径都能使用Consul命令
+sudo mv consul /usr/local/bin/

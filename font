@@ -1,0 +1,6 @@
+sudo vi /etc/default/console-setup
+FONTSIZE="16*32"
+CONSOLE_FONT=Lat2-Terminus16
+CONSOLE_SIZE=80*24
+sudo reboot
+

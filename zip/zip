@@ -1,0 +1,4 @@
+压缩dist到demo.zip
+zip -r demo.zip dist/
+解压demo.zip
+unzip demo.zip

@@ -1,0 +1,11 @@
+1.date
+Wed 18 May 2022 09:50:04 AM CST
+2.确认时区是否为shanghai
+ll /etc/localtime
+3.检查本地时间与硬件时间
+timedatectl
+4.修改本地时间
+date -s '+8hour'
+5.将本地时间写入硬件时间并重新检查
+hwclock -w
+timedatectl

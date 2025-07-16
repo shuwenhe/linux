@@ -1,0 +1,2 @@
+清理sidsa-service日志
+echo "" > sidsa-service.log

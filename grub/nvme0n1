@@ -1,0 +1,3 @@
+无法将grub安装到/dev/nvme0n1
+执行grub-install /dev/nvme0n1失败
+这是一个致命错误

@@ -1,0 +1,5 @@
+hostnamectl命令用于查看当前主机的信息。
+# 显示当前主机的信息
+$ hostnamectl
+# 设置主机名。
+$ sudo hostnamectl set-hostname rhel7

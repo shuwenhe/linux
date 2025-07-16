@@ -1,0 +1,2 @@
+ > test.log 2>&1
+ kubectl logs -f iot-java-demo-6dcb4684b4-4njx9 -n sidsa > variable.log 2>&1

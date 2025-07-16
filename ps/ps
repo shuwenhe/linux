@@ -1,0 +1,4 @@
+ps aux | grep shuwen
+ps -ef | grep redis-server
+ps -ef | grep emqx
+
